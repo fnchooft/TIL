@@ -1,0 +1,1 @@
+{"sql":"select a,b from A","results":[{"columns":[{"name":"a","decltype":null,"type":"integer"},{"name":"b","decltype":null,"type":"float"}],"rows":[[1,2.1],[3,"foo"],["",null],["AQID","<blob>"]],"changes":0,"last_insert_rowid":0,"error":null}]}

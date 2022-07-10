@@ -1,0 +1,18 @@
+  <TBL_A>
+   <ROW>
+    <a TYPE="INTEGER">1</a>
+    <b TYPE="REAL">2.1</b>
+   </ROW>
+   <ROW>
+    <a TYPE="INTEGER">3</a>
+    <b TYPE="TEXT">foo</b>
+   </ROW>
+   <ROW>
+    <a TYPE="TEXT"></a>
+    <b TYPE="NULL"></b>
+   </ROW>
+   <ROW>
+    <a TYPE="BLOB">&#x01;&#x02;&#x03;</a>
+    <b TYPE="TEXT">&lt;blob&gt;</b>
+   </ROW>
+  </TBL_A>
