@@ -1,0 +1,9 @@
+PRAGMA foreign_keys=ON;
+SELECT
+  '    <column name="' || name || '" type="' || type || '"' || 
+  CASE WHEN pk=1                   THEN ' primary_key="true"'             ELSE '' END || 
+  CASE WHEN 'notnull'=1            THEN ' not_null="true"'                ELSE '' END || 
+  CASE WHEN dflt_value IS NOT NULL THEN ' default="' || dflt_value || '"' ELSE '' END || 
+  ' />' 
+FROM 
+  pragma_table_info('TABLE_NAME');

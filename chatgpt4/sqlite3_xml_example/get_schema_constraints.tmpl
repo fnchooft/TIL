@@ -1,0 +1,5 @@
+SELECT 
+  '    <constraint type="foreign_key" columns="' || p."from" || '" references_table="' || p."table" || '" references_column="' || p."to" || '" />'
+FROM 
+  pragma_foreign_key_list('TABLE_NAME') p
+; 
